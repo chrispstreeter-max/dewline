@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ingredient glossary | Dewline docs</title>
+<meta name="description" content="The ingredient glossary is an A to Z page of every ingredient you use: what it does, its INCI name and which products contain it. Shoppers can search it, filter it by category and jump to a letter.">
+<meta name="theme-color" content="#F5F3EE">
+<link rel="icon" href="../assets/dewline-mark.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="page-docs">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="../index.html"><img src="../assets/dewline-lockup.svg" width="126" height="32" alt="Dewline home"></a>
+    <nav aria-label="Main"><ul class="site-nav"><li><a href="../docs/index.html" aria-current="page">Docs</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../support.html">Support</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap docs">
+  <aside class="docs__side">
+    <details class="docs__menu" open data-docs-menu>
+      <summary>Documentation menu</summary>
+      <nav aria-label="Documentation"><ol class="docs__list"><li><a href="getting-started.html">Getting started</a></li><li><a href="styles.html">Styles guide</a></li><li><a href="product-data.html">Product data with metafields</a></li><li><a href="routine-quiz.html">Routine quiz</a></li><li><a href="ingredient-glossary.html" aria-current="page">Ingredient glossary</a></li><li><a href="routines.html">Routines and subscriptions</a></li><li><a href="product-pages.html">Product pages</a></li><li><a href="home-page.html">Home page sections</a></li><li><a href="collections-search-cart.html">Collections, search and cart</a></li><li><a href="translations-markets.html">Translations and markets</a></li></ol></nav>
+    </details>
+  </aside>
+  <article class="docs__main prose">
+    <p class="crumbs"><a href="index.html">Docs</a> <span aria-hidden="true">/</span> Ingredient glossary</p>
+    <h1 id="ingredient-glossary">Ingredient glossary</h1>
+<p>The ingredient glossary is an A to Z page of every ingredient you use: what it does, its INCI name and which products contain it. Shoppers can search it, filter it by category and jump to a letter.</p>
+<h2 id="create-the-glossary-page">Create the glossary page</h2>
+<ol>
+<li>In your Shopify admin, go to <strong>Online Store &gt; Pages</strong> and select <strong>Add page</strong>.</li>
+<li>Enter a title, for example &quot;Ingredients&quot;.</li>
+<li>Under <strong>Theme template</strong>, choose <strong>ingredients</strong> (the <code>page.ingredients</code> template).</li>
+<li>Select <strong>Save</strong>.</li>
+<li>Add the page to your menu in <strong>Online Store &gt; Navigation</strong>.</li>
+</ol>
+<p>The template ships with 14 sample entries, from Azelaic acid to Zinc oxide. Edit or remove them in the theme editor.</p>
+<p>Tip: if the page handle is <code>ingredients</code> (the URL ends in <code>/pages/ingredients</code>), the <strong>Key ingredients</strong> link on the default product template already points to it.</p>
+<h2 id="add-an-entry">Add an entry</h2>
+<ol>
+<li>Go to <strong>Online Store &gt; Themes</strong> and select <strong>Customize</strong>.</li>
+<li>From the page selector at the top, choose <strong>Pages &gt; ingredients</strong>.</li>
+<li>Under the <strong>Ingredient glossary</strong> section, select <strong>Add block &gt; Ingredient</strong>.</li>
+<li>Fill in the entry:<ul>
+<li><strong>Name</strong>: the everyday name, for example &quot;Niacinamide&quot;. This decides the letter it is listed under.</li>
+<li><strong>Also known as</strong>: the INCI name or other names, for example &quot;Vitamin B3&quot;. Shoppers can search these too.</li>
+<li><strong>Category</strong>: see the list below.</li>
+<li><strong>Role</strong>: two or three words, for example &quot;Oil control&quot;.</li>
+<li><strong>Description</strong>: what it does, in plain language.</li>
+<li><strong>Typical use</strong>: optional, for example &quot;2–5%&quot;.</li>
+<li><strong>Image</strong>: optional.</li>
+<li><strong>Find it in</strong>: up to four products that contain it. They show as small links with images.</li>
+</ul>
+</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<p>Entries are grouped by the first letter of their name automatically. Within a letter, they keep the order of the blocks in the sidebar, so drag them to sort alphabetically. Names that start with a number or symbol are grouped under <strong>#</strong>.</p>
+<h2 id="categories">Categories</h2>
+<p>Each entry belongs to one category. The filter chips above the list only show categories you have used.</p>
+<ul>
+<li>Hydrators</li>
+<li>Actives</li>
+<li>Soothers</li>
+<li>Antioxidants</li>
+<li>Exfoliants</li>
+<li>Sunscreen filters</li>
+<li>Supplements</li>
+</ul>
+<h2 id="link-to-an-ingredient">Link to an ingredient</h2>
+<p>Every entry has its own link: the page URL plus <code>#</code> and the ingredient name in lowercase, with spaces turned into hyphens.</p>
+<div class="table-wrap" role="region" aria-label="Link to an ingredient: Ingredient name, Link" tabindex="0"><table>
+<thead>
+<tr>
+<th>Ingredient name</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Niacinamide</td>
+<td><code>/pages/ingredients#niacinamide</code></td>
+</tr>
+<tr>
+<td>Hyaluronic acid</td>
+<td><code>/pages/ingredients#hyaluronic-acid</code></td>
+</tr>
+<tr>
+<td>Vitamin C</td>
+<td><code>/pages/ingredients#vitamin-c</code></td>
+</tr>
+</tbody></table>
+</div>
+<p>Use these links in product descriptions, blog posts, the Key ingredients block or the Ingredient spotlight section on your home page. If a search or filter is hiding the entry, the page clears it so the shopper lands right on it.</p>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Keep names consistent with your product pages, so a shopper who reads &quot;Niacinamide 5%&quot; on a product finds &quot;Niacinamide&quot; in the glossary.</li>
+<li>Fill in <strong>Also known as</strong> with the INCI name. Shoppers often search what they read on the packaging.</li>
+<li>Do not use the same name twice. Each name becomes a link, and links must be unique.</li>
+</ul>
+
+    <nav class="pager" aria-label="Previous and next">
+    <a class="pager__link" href="routine-quiz.html" rel="prev"><span>Previous</span>Routine quiz</a>
+    <a class="pager__link pager__link--next" href="routines.html" rel="next"><span>Next</span>Routines and subscriptions</a>
+  </nav>
+  </article>
+  <aside class="docs__toc" aria-labelledby="toc-h"><p class="docs__toc-title" id="toc-h">On this page</p><ul><li><a href="#create-the-glossary-page">Create the glossary page</a></li><li><a href="#add-an-entry">Add an entry</a></li><li><a href="#categories">Categories</a></li><li><a href="#link-to-an-ingredient">Link to an ingredient</a></li><li><a href="#tips">Tips</a></li></ul></aside>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="../assets/dewline-mark-light.svg" width="40" height="40" alt="">
+      <p><strong>Dewline</strong> by CHRISPSDesign<br><span>A Shopify theme for beauty, skincare and supplements.</span></p>
+    </div>
+    <nav aria-label="Footer"><ul class="site-footer__links">
+      <li><a href="../docs/index.html">Documentation</a></li>
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../support.html">Support</a></li>
+      <li><a href="https://themes.shopify.com/">Shopify Theme Store</a></li>
+    </ul></nav>
+    <p class="site-footer__legal">© 2026 CHRISPSDesign. Shopify is a trademark of Shopify Inc.</p>
+  </div>
+</footer>
+<script>
+  // Collapse the docs menu on narrow screens; it stays open on wide ones.
+  if (window.matchMedia('(max-width: 899px)').matches) document.querySelector('[data-docs-menu]').open = false;
+</script>
+</body>
+</html>

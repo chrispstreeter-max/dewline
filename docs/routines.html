@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Routines and subscriptions | Dewline docs</title>
+<meta name="description" content="Dewline helps shoppers buy a whole routine, not just one product. There are two places to build routines: the Routine block on product pages and the Routine builder section on the home page (or any page).">
+<meta name="theme-color" content="#F5F3EE">
+<link rel="icon" href="../assets/dewline-mark.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="page-docs">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="../index.html"><img src="../assets/dewline-lockup.svg" width="126" height="32" alt="Dewline home"></a>
+    <nav aria-label="Main"><ul class="site-nav"><li><a href="../docs/index.html" aria-current="page">Docs</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../support.html">Support</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap docs">
+  <aside class="docs__side">
+    <details class="docs__menu" open data-docs-menu>
+      <summary>Documentation menu</summary>
+      <nav aria-label="Documentation"><ol class="docs__list"><li><a href="getting-started.html">Getting started</a></li><li><a href="styles.html">Styles guide</a></li><li><a href="product-data.html">Product data with metafields</a></li><li><a href="routine-quiz.html">Routine quiz</a></li><li><a href="ingredient-glossary.html">Ingredient glossary</a></li><li><a href="routines.html" aria-current="page">Routines and subscriptions</a></li><li><a href="product-pages.html">Product pages</a></li><li><a href="home-page.html">Home page sections</a></li><li><a href="collections-search-cart.html">Collections, search and cart</a></li><li><a href="translations-markets.html">Translations and markets</a></li></ol></nav>
+    </details>
+  </aside>
+  <article class="docs__main prose">
+    <p class="crumbs"><a href="index.html">Docs</a> <span aria-hidden="true">/</span> Routines and subscriptions</p>
+    <h1 id="routines-and-subscriptions">Routines and subscriptions</h1>
+<p>Dewline helps shoppers buy a whole routine, not just one product. There are two places to build routines: the <strong>Routine</strong> block on product pages and the <strong>Routine builder</strong> section on the home page (or any page).</p>
+<h2 id="the-product-page-routine-block">The product page routine block</h2>
+<p>The Routine block shows a morning and an evening routine with tabs, a checkbox for each step, a live total and an <strong>Add routine to bag</strong> button.</p>
+<h3 id="set-it-up-with-metafields-recommended">Set it up with metafields (recommended)</h3>
+<ol>
+<li>Create the <code>custom.routine_am</code> and <code>custom.routine_pm</code> metafield definitions as <strong>List of products</strong>. See <a href="product-data.html">Product data with metafields</a>.</li>
+<li>Open a product in your admin and pick its morning and evening products in the <strong>Metafields</strong> card, in the order they are used.</li>
+<li>Save. The default product template already connects the block to these metafields.</li>
+</ol>
+<h3 id="settings">Settings</h3>
+<ul>
+<li><strong>Heading</strong> and <strong>Text</strong>: shown above the routine, for example &quot;Complete the routine&quot; and &quot;Uncheck a step you already have.&quot;</li>
+<li><strong>Morning &gt; Products</strong> and <strong>Evening &gt; Products</strong>: up to eight products each. Connect them to metafields so every product shows its own routine.</li>
+<li><strong>Step labels</strong>: optional words for each step, separated by commas, in order, for example <code>Cleanse, Tone, Treat</code>. Without labels, each step shows its product type.</li>
+</ul>
+<p>How it behaves:</p>
+<ul>
+<li>If only one routine has products, the tabs are hidden.</li>
+<li>If neither has products, the block is hidden on that product (you will see a reminder in the theme editor).</li>
+<li>Every available product starts checked. Shoppers uncheck what they already own and the total updates.</li>
+<li>Sold-out products show as sold out and cannot be added.</li>
+</ul>
+<p>Tip: step labels are set on the block, so they are the same on every product. If your routines vary a lot by product, leave the labels empty and set clear product types instead.</p>
+<h2 id="the-home-page-routine-builder">The home page routine builder</h2>
+<p>The <strong>Routine builder</strong> section shows a full routine with Morning and Evening tabs and a summary panel with the number of steps, the total and an <strong>Add routine to bag</strong> button.</p>
+<ol>
+<li>In the theme editor, open the home page and select <strong>Add section &gt; Routine builder</strong> (the demo home page already includes one).</li>
+<li>Set the <strong>Eyebrow</strong>, <strong>Heading</strong> and <strong>Text</strong>.</li>
+<li>Under <strong>Summary</strong>, set the <strong>Heading</strong> and an optional <strong>Note</strong>, for example a free shipping message.</li>
+<li>Select each <strong>Step</strong> block and set:<ul>
+<li><strong>Product</strong></li>
+<li><strong>Step label</strong>, for example &quot;Cleanse&quot;</li>
+<li><strong>Time of day</strong>: Morning, Evening, or Morning and evening</li>
+</ul>
+</li>
+<li>Add up to 12 steps. They show in block order and are numbered automatically within each tab.</li>
+</ol>
+<p>Steps without a product show a placeholder so you can see where they go.</p>
+<h2 id="what-gets-added-to-the-bag">What gets added to the bag</h2>
+<p>Both routines add one of each checked, available product as a regular one-time purchase. Only the tab that is open is added: switch to Evening to add the evening routine.</p>
+<h2 id="subscriptions-subscribe-and-save">Subscriptions (subscribe and save)</h2>
+<p>Dewline supports Shopify selling plans in the <strong>Buy buttons</strong> block. There is nothing to turn on in the theme.</p>
+<ol>
+<li>Install a subscriptions app, such as Shopify Subscriptions, from the Shopify App Store.</li>
+<li>In the app, create a subscription plan and add your products to it.</li>
+<li>Open a product page in your store. The Buy buttons block now shows <strong>Purchase options</strong>:<ul>
+<li><strong>One-time purchase</strong> with its price</li>
+<li><strong>Subscribe and save</strong> with the subscription price, a &quot;Save up to X%&quot; badge when the plan has a discount, and a <strong>Delivery frequency</strong> menu</li>
+</ul>
+</li>
+<li>When a shopper chooses Subscribe and save, the product price updates to the subscription price.</li>
+</ol>
+<p>If a product can only be bought as a subscription, the one-time option is hidden. Products without plans show the normal buy button.</p>
+<p>Note: the quiz, routine block and routine builder add one-time purchases. Shoppers choose a subscription on the product page.</p>
+
+    <nav class="pager" aria-label="Previous and next">
+    <a class="pager__link" href="ingredient-glossary.html" rel="prev"><span>Previous</span>Ingredient glossary</a>
+    <a class="pager__link pager__link--next" href="product-pages.html" rel="next"><span>Next</span>Product pages</a>
+  </nav>
+  </article>
+  <aside class="docs__toc" aria-labelledby="toc-h"><p class="docs__toc-title" id="toc-h">On this page</p><ul><li><a href="#the-product-page-routine-block">The product page routine block</a></li><li><a href="#the-home-page-routine-builder">The home page routine builder</a></li><li><a href="#what-gets-added-to-the-bag">What gets added to the bag</a></li><li><a href="#subscriptions-subscribe-and-save">Subscriptions (subscribe and save)</a></li></ul></aside>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="../assets/dewline-mark-light.svg" width="40" height="40" alt="">
+      <p><strong>Dewline</strong> by CHRISPSDesign<br><span>A Shopify theme for beauty, skincare and supplements.</span></p>
+    </div>
+    <nav aria-label="Footer"><ul class="site-footer__links">
+      <li><a href="../docs/index.html">Documentation</a></li>
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../support.html">Support</a></li>
+      <li><a href="https://themes.shopify.com/">Shopify Theme Store</a></li>
+    </ul></nav>
+    <p class="site-footer__legal">© 2026 CHRISPSDesign. Shopify is a trademark of Shopify Inc.</p>
+  </div>
+</footer>
+<script>
+  // Collapse the docs menu on narrow screens; it stays open on wide ones.
+  if (window.matchMedia('(max-width: 899px)').matches) document.querySelector('[data-docs-menu]').open = false;
+</script>
+</body>
+</html>

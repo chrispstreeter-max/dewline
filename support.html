@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support | Dewline</title>
+<meta name="description" content="Contact Dewline theme support. We reply within 2 business days.">
+<meta name="theme-color" content="#F5F3EE">
+<link rel="icon" href="assets/dewline-mark.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="index.html"><img src="assets/dewline-lockup.svg" width="126" height="32" alt="Dewline home"></a>
+    <nav aria-label="Main"><ul class="site-nav"><li><a href="docs/index.html">Docs</a></li><li><a href="faq.html">FAQ</a></li><li><a href="support.html" aria-current="page">Support</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Support</p>
+    <h1>We are here <em>to help</em></h1>
+    <p class="lede">Questions about setting up Dewline, or something not working as expected? Send us a message. A real person replies within 2 business days, Monday to Friday.</p>
+  </div>
+</section>
+<div class="wrap support section-tight">
+  <div class="support__main">
+    <div class="notice" id="sent" role="status" tabindex="-1" hidden>
+      <h2>Thanks, your message is on its way</h2>
+      <p>We have sent a confirmation to your email address and will reply within 2 business days. In the meantime, the <a href="docs/index.html">documentation</a> might already have your answer.</p>
+    </div>
+    <form class="form" id="support-form" action="https://formsubmit.co/hello@chrisps.co.uk" method="POST" enctype="multipart/form-data">
+      <h2 class="form__title">Contact support</h2>
+      <p class="form__note">All fields are required unless marked optional.</p>
+      <input type="hidden" name="_subject" value="Dewline support request">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://chrispstreeter-max.github.io/dewline/support.html?sent=1">
+      <input type="hidden" name="_autoresponse" value="Thanks for contacting Dewline support. We have your message and will reply within 2 business days. In the meantime, our documentation is at https://chrispstreeter-max.github.io/dewline/docs/">
+      <div class="hp" aria-hidden="true"><label for="f-honey">Leave this field empty</label><input type="text" id="f-honey" name="_honey" tabindex="-1" autocomplete="off"></div>
+
+      <div class="field">
+        <label for="f-name">Name</label>
+        <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="f-name-err">
+        <p class="field__error" id="f-name-err" hidden></p>
+      </div>
+      <div class="field">
+        <label for="f-email">Email</label>
+        <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="f-email-err">
+        <p class="field__error" id="f-email-err" hidden></p>
+      </div>
+      <div class="field">
+        <label for="f-store">Store URL</label>
+        <p class="field__hint" id="f-store-hint">For example yourstore.myshopify.com or yourstore.com</p>
+        <input id="f-store" name="store_url" type="text" inputmode="url" autocomplete="url" required aria-describedby="f-store-hint f-store-err">
+        <p class="field__error" id="f-store-err" hidden></p>
+      </div>
+      <div class="field">
+        <label for="f-topic">Topic</label>
+        <select id="f-topic" name="topic" required aria-describedby="f-topic-err">
+          <option value="">Choose a topic</option>
+          <option>Installing and setup</option><option>Styles, colors and fonts</option><option>Product data and metafields</option><option>Routine quiz</option><option>Ingredient glossary</option><option>Routines and subscriptions</option><option>Collections, search and cart</option><option>Translations and markets</option><option>Something is not working</option><option>Something else</option>
+        </select>
+        <p class="field__error" id="f-topic-err" hidden></p>
+      </div>
+      <div class="field">
+        <label for="f-message">Message</label>
+        <p class="field__hint" id="f-message-hint">Tell us what you were doing, what you expected and what happened instead.</p>
+        <textarea id="f-message" name="message" rows="7" required aria-describedby="f-message-hint f-message-err"></textarea>
+        <p class="field__error" id="f-message-err" hidden></p>
+      </div>
+      <div class="field">
+        <label for="f-file">Screenshot or file <span class="optional">(optional)</span></label>
+        <p class="field__hint" id="f-file-hint">An image or PDF up to 5 MB.</p>
+        <input id="f-file" name="attachment" type="file" accept="image/*,.pdf" aria-describedby="f-file-hint f-file-err">
+        <p class="field__error" id="f-file-err" hidden></p>
+      </div>
+      <button class="btn" type="submit">Send message</button>
+    </form>
+  </div>
+  <aside class="support__side" aria-labelledby="tips-h">
+    <h2 id="tips-h">Get an answer faster</h2>
+    <ol class="steps">
+      <li>Check the <a href="docs/index.html">documentation</a> and <a href="faq.html">FAQ</a>. Most setup questions are answered there.</li>
+      <li>Include your store URL, and a preview link if the theme is not published yet.</li>
+      <li>Attach a screenshot of the page or the theme editor setting.</li>
+      <li>Tell us which style you use: Dewline, Pigment or Tonic.</li>
+    </ol>
+    <div class="support__card">
+      <p class="support__big">2 business days</p>
+      <p>Our response time, Monday to Friday. Support covers the theme's features and settings. Custom code changes and third-party apps are outside our scope, but we will point you in the right direction.</p>
+    </div>
+  </aside>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="assets/dewline-mark-light.svg" width="40" height="40" alt="">
+      <p><strong>Dewline</strong> by CHRISPSDesign<br><span>A Shopify theme for beauty, skincare and supplements.</span></p>
+    </div>
+    <nav aria-label="Footer"><ul class="site-footer__links">
+      <li><a href="docs/index.html">Documentation</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="https://themes.shopify.com/">Shopify Theme Store</a></li>
+    </ul></nav>
+    <p class="site-footer__legal">© 2026 CHRISPSDesign. Shopify is a trademark of Shopify Inc.</p>
+  </div>
+</footer>
+<script>
+(() => {
+  const form = document.getElementById('support-form');
+  const sent = document.getElementById('sent');
+  if (new URLSearchParams(location.search).get('sent') === '1') {
+    sent.hidden = false;
+    form.hidden = true;
+    sent.focus();
+    return;
+  }
+  form.noValidate = true;
+  const messages = {
+    'f-name': 'Enter your name.',
+    'f-email': 'Enter an email address like name@example.com.',
+    'f-store': 'Enter your store URL so we can take a look.',
+    'f-topic': 'Choose the topic closest to your question.',
+    'f-message': 'Tell us how we can help.',
+  };
+  const check = (el) => {
+    const err = document.getElementById(el.id + '-err');
+    let msg = '';
+    if (el.type === 'file') {
+      const f = el.files[0];
+      if (f && f.size > 5 * 1024 * 1024) msg = 'Choose a file smaller than 5 MB.';
+    } else if (!el.checkValidity()) {
+      msg = messages[el.id];
+    }
+    err.textContent = msg;
+    err.hidden = !msg;
+    if (msg) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+    return !msg;
+  };
+  const fields = [...form.querySelectorAll('.field input, .field select, .field textarea')];
+  fields.forEach((el) => {
+    el.addEventListener('blur', () => { if (el.value || el.hasAttribute('aria-invalid')) check(el); });
+    el.addEventListener('input', () => { if (el.hasAttribute('aria-invalid')) check(el); });
+    el.addEventListener('change', () => check(el));
+  });
+  form.addEventListener('submit', (e) => {
+    const bad = fields.filter((el) => !check(el));
+    if (bad.length) { e.preventDefault(); bad[0].focus(); }
+  });
+})();
+</script>
+</body>
+</html>

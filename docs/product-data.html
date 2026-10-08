@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product data with metafields | Dewline docs</title>
+<meta name="description" content="Dewline's product blocks (key ingredients, results, supplement facts, free from, how to use, the full ingredient list and routines) read their content from metafields. You create each metafield once, fill it in on every product, and each product page shows its own data.">
+<meta name="theme-color" content="#F5F3EE">
+<link rel="icon" href="../assets/dewline-mark.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="page-docs">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="../index.html"><img src="../assets/dewline-lockup.svg" width="126" height="32" alt="Dewline home"></a>
+    <nav aria-label="Main"><ul class="site-nav"><li><a href="../docs/index.html" aria-current="page">Docs</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../support.html">Support</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap docs">
+  <aside class="docs__side">
+    <details class="docs__menu" open data-docs-menu>
+      <summary>Documentation menu</summary>
+      <nav aria-label="Documentation"><ol class="docs__list"><li><a href="getting-started.html">Getting started</a></li><li><a href="styles.html">Styles guide</a></li><li><a href="product-data.html" aria-current="page">Product data with metafields</a></li><li><a href="routine-quiz.html">Routine quiz</a></li><li><a href="ingredient-glossary.html">Ingredient glossary</a></li><li><a href="routines.html">Routines and subscriptions</a></li><li><a href="product-pages.html">Product pages</a></li><li><a href="home-page.html">Home page sections</a></li><li><a href="collections-search-cart.html">Collections, search and cart</a></li><li><a href="translations-markets.html">Translations and markets</a></li></ol></nav>
+    </details>
+  </aside>
+  <article class="docs__main prose">
+    <p class="crumbs"><a href="index.html">Docs</a> <span aria-hidden="true">/</span> Product data with metafields</p>
+    <h1 id="product-data-with-metafields">Product data with metafields</h1>
+<p>Dewline&#39;s product blocks (key ingredients, results, supplement facts, free from, how to use, the full ingredient list and routines) read their content from <strong>metafields</strong>. You create each metafield once, fill it in on every product, and each product page shows its own data.</p>
+<p>Good news: the default product template already connects these blocks to the metafields below. If you create the definitions with <strong>exactly</strong> these namespaces and keys, the blocks fill in on their own. You only need to connect them by hand if you use different keys.</p>
+<h2 id="the-metafields-dewline-expects">The metafields Dewline expects</h2>
+<div class="table-wrap" role="region" aria-label="The metafields Dewline expects: Name (your choice), Namespace and key, Type, Used by block" tabindex="0"><table>
+<thead>
+<tr>
+<th>Name (your choice)</th>
+<th>Namespace and key</th>
+<th>Type</th>
+<th>Used by block</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Key ingredients</td>
+<td><code>custom.key_ingredients</code></td>
+<td>Multi-line text</td>
+<td>Key ingredients</td>
+</tr>
+<tr>
+<td>Ingredients</td>
+<td><code>custom.ingredients</code></td>
+<td>Multi-line text (or Rich text)</td>
+<td>Ingredient list</td>
+</tr>
+<tr>
+<td>Free from</td>
+<td><code>custom.free_from</code></td>
+<td>Single line text</td>
+<td>Free from</td>
+</tr>
+<tr>
+<td>How to use</td>
+<td><code>custom.how_to_use</code></td>
+<td>Multi-line text</td>
+<td>How to use</td>
+</tr>
+<tr>
+<td>Results</td>
+<td><code>custom.results</code></td>
+<td>Multi-line text</td>
+<td>Results timeline</td>
+</tr>
+<tr>
+<td>Supplement facts</td>
+<td><code>custom.supplement_facts</code></td>
+<td>Multi-line text</td>
+<td>Supplement facts</td>
+</tr>
+<tr>
+<td>Morning routine</td>
+<td><code>custom.routine_am</code></td>
+<td>Product, list of products</td>
+<td>Routine (Morning)</td>
+</tr>
+<tr>
+<td>Evening routine</td>
+<td><code>custom.routine_pm</code></td>
+<td>Product, list of products</td>
+<td>Routine (Evening)</td>
+</tr>
+<tr>
+<td>Product subtitle</td>
+<td><code>descriptors.subtitle</code></td>
+<td>Shopify standard definition</td>
+<td>Subtitle, product cards</td>
+</tr>
+</tbody></table>
+</div>
+<h2 id="create-a-metafield-definition">Create a metafield definition</h2>
+<p>Repeat these steps for each row in the table.</p>
+<ol>
+<li>In your Shopify admin, go to <strong>Settings &gt; Custom data</strong>.</li>
+<li>Under <strong>Metafield definitions</strong>, select <strong>Products</strong>.</li>
+<li>Select <strong>Add definition</strong>.</li>
+<li>Enter a <strong>Name</strong>, for example &quot;Key ingredients&quot;.</li>
+<li>In <strong>Namespace and key</strong>, enter the exact value from the table, for example <code>custom.key_ingredients</code>.</li>
+<li>Select the <strong>Type</strong>:<ul>
+<li>For multi-line text, choose <strong>Text</strong>, then <strong>Multi-line text</strong>.</li>
+<li>For single line text, choose <strong>Text</strong>, then <strong>Single line text</strong> and keep <strong>One value</strong>.</li>
+<li>For routines, choose <strong>Product</strong>, then select <strong>List of products</strong>.</li>
+</ul>
+</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<h2 id="add-the-shopify-subtitle">Add the Shopify subtitle</h2>
+<p>The subtitle is a standard Shopify definition, so you do not type the key yourself.</p>
+<ol>
+<li>Go to <strong>Settings &gt; Custom data &gt; Products</strong> and select <strong>Add definition</strong>.</li>
+<li>Choose <strong>Product subtitle</strong> from the standard definitions. Its key is <code>descriptors.subtitle</code>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<p>The Subtitle block shows it under the product title, and product cards show it when <strong>Theme settings &gt; Product cards &gt; Show product subtitle</strong> is on. Example: &quot;Barrier serum, 30 ml&quot;.</p>
+<h2 id="fill-in-a-product">Fill in a product</h2>
+<ol>
+<li>Go to <strong>Products</strong> and open a product.</li>
+<li>Scroll to the <strong>Metafields</strong> card near the bottom.</li>
+<li>Fill in each field using the formats below.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<h2 id="line-formats-each-block-expects">Line formats each block expects</h2>
+<p>Each block reads one line at a time. Press Enter (Return) between lines. The vertical bar <code>|</code> separates parts of a line.</p>
+<h3 id="key-ingredients">Key ingredients</h3>
+<p>One ingredient per line as <code>Name | what it does</code>.</p>
+<pre tabindex="0"><code>Niacinamide 5% | Calms redness
+Ceramide NP | Repairs the barrier
+Panthenol | Soothes and softens</code></pre>
+<ul>
+<li>If the last word of the name contains <code>%</code>, it shows as a small dose label next to the name.</li>
+<li>The part after <code>|</code> is optional.</li>
+<li>The block&#39;s <strong>Icon</strong> setting picks the icon. <strong>Alternate</strong> cycles through drop, leaf and flask.</li>
+<li>Set <strong>Link</strong> and <strong>Link label</strong> to point shoppers to your <a href="ingredient-glossary.html">ingredient glossary</a>.</li>
+</ul>
+<h3 id="results-timeline">Results timeline</h3>
+<p>One result per line as <code>Time | result</code>.</p>
+<pre tabindex="0"><code>2 weeks | 94% said skin felt more hydrated
+4 weeks | 88% saw less redness
+8 weeks | 81% said pores looked smaller</code></pre>
+<ul>
+<li>If the result starts with a word containing <code>%</code>, that number shows large as the headline stat.</li>
+<li>Lines without <code>|</code> are skipped.</li>
+<li>Use the block&#39;s <strong>Disclaimer</strong> setting to say where the numbers come from. Only publish results you can support.</li>
+</ul>
+<h3 id="supplement-facts">Supplement facts</h3>
+<p>The block builds an accessible facts table from three kinds of lines:</p>
+<pre tabindex="0"><code>Serving size | 1 scoop (5 g)
+Servings per container | 30
+Vitamin C | 500 mg | 556%
+Magnesium | 120 mg | 29%
+Ashwagandha root extract | 300 mg | †
+* Percent Daily Values are based on a 2,000 calorie diet.
+† Daily Value not established.</code></pre>
+<ul>
+<li><strong>Two parts</strong> (<code>Label | value</code>): serving lines at the top of the table, like serving size and servings per container.</li>
+<li><strong>Three parts</strong> (<code>Nutrient | amount | % Daily Value</code>): one row per nutrient.</li>
+<li><strong>No <code>|</code> at all</strong>: a footnote under the table. Use this for the <code>*</code> and <code>†</code> notes.</li>
+</ul>
+<p>Important: a nutrient line must always have three parts. If there is no Daily Value, put <code>†</code> in the third part. A nutrient line with only two parts shows up with the serving lines instead.</p>
+<h3 id="free-from">Free from</h3>
+<p>A single line, separated by commas:</p>
+<pre tabindex="0"><code>Fragrance, Parabens, Sulfates, Silicones</code></pre>
+<p>Each item shows as a badge with a check mark.</p>
+<h3 id="how-to-use">How to use</h3>
+<p>One step per line:</p>
+<pre tabindex="0"><code>Apply 2 to 3 drops to clean, damp skin.
+Press in gently with your palms.
+Follow with moisturizer.</code></pre>
+<p>The block&#39;s <strong>Time of day</strong> setting adds Morning or Evening labels. Turn on <strong>Show as collapsible row</strong> to tuck it into an accordion.</p>
+<h3 id="ingredient-list">Ingredient list</h3>
+<p>Paste the full INCI list exactly as it appears on your packaging:</p>
+<pre tabindex="0"><code>Aqua (Water), Glycerin, Niacinamide, Ceramide NP, Panthenol, ...</code></pre>
+<p>It shows inside a collapsible row called &quot;Full ingredient list&quot;.</p>
+<h3 id="morning-and-evening-routines">Morning and evening routines</h3>
+<p>Pick the products in the order they are used, up to eight for each routine. See <a href="routines.html">Routines and subscriptions</a> for how the block works.</p>
+<h2 id="connect-a-block-to-a-metafield">Connect a block to a metafield</h2>
+<p>Do this if you used different keys, or if you add one of these blocks to another template.</p>
+<ol>
+<li>Go to <strong>Online Store &gt; Themes</strong> and select <strong>Customize</strong>.</li>
+<li>From the page selector at the top, choose <strong>Products &gt; Default product</strong> (or your product template).</li>
+<li>In the left sidebar, select the block, for example <strong>Key ingredients</strong>.</li>
+<li>Next to the setting you want to fill, for example <strong>Ingredients</strong>, select the <strong>Connect dynamic source</strong> icon.</li>
+<li>Choose the metafield, for example <strong>Key ingredients</strong>. Only metafields of a matching type show in the list.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<p>Which setting connects to which type:</p>
+<div class="table-wrap" role="region" aria-label="Connect a block to a metafield: Block, Setting, Metafield type" tabindex="0"><table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Setting</th>
+<th>Metafield type</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Key ingredients</td>
+<td>Ingredients</td>
+<td>Multi-line text or Rich text</td>
+</tr>
+<tr>
+<td>Results timeline</td>
+<td>Results</td>
+<td>Multi-line text or Rich text</td>
+</tr>
+<tr>
+<td>Supplement facts</td>
+<td>Facts</td>
+<td>Multi-line text or Rich text</td>
+</tr>
+<tr>
+<td>How to use</td>
+<td>Steps</td>
+<td>Multi-line text or Rich text</td>
+</tr>
+<tr>
+<td>Ingredient list</td>
+<td>Ingredients</td>
+<td>Multi-line text or Rich text</td>
+</tr>
+<tr>
+<td>Free from</td>
+<td>Items</td>
+<td>Single line text</td>
+</tr>
+<tr>
+<td>Routine</td>
+<td>Products (Morning, Evening)</td>
+<td>List of products</td>
+</tr>
+<tr>
+<td>Subtitle</td>
+<td>Text</td>
+<td>Single line text (<code>descriptors.subtitle</code>)</td>
+</tr>
+</tbody></table>
+</div>
+<h2 id="empty-blocks-hide-themselves">Empty blocks hide themselves</h2>
+<p>If a product has no value for a metafield, the block does not show on that product. You can keep every block in one product template for skincare and supplements alike. A face serum simply will not show supplement facts.</p>
+
+    <nav class="pager" aria-label="Previous and next">
+    <a class="pager__link" href="styles.html" rel="prev"><span>Previous</span>Styles guide</a>
+    <a class="pager__link pager__link--next" href="routine-quiz.html" rel="next"><span>Next</span>Routine quiz</a>
+  </nav>
+  </article>
+  <aside class="docs__toc" aria-labelledby="toc-h"><p class="docs__toc-title" id="toc-h">On this page</p><ul><li><a href="#the-metafields-dewline-expects">The metafields Dewline expects</a></li><li><a href="#create-a-metafield-definition">Create a metafield definition</a></li><li><a href="#add-the-shopify-subtitle">Add the Shopify subtitle</a></li><li><a href="#fill-in-a-product">Fill in a product</a></li><li><a href="#line-formats-each-block-expects">Line formats each block expects</a></li><li><a href="#connect-a-block-to-a-metafield">Connect a block to a metafield</a></li><li><a href="#empty-blocks-hide-themselves">Empty blocks hide themselves</a></li></ul></aside>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="../assets/dewline-mark-light.svg" width="40" height="40" alt="">
+      <p><strong>Dewline</strong> by CHRISPSDesign<br><span>A Shopify theme for beauty, skincare and supplements.</span></p>
+    </div>
+    <nav aria-label="Footer"><ul class="site-footer__links">
+      <li><a href="../docs/index.html">Documentation</a></li>
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../support.html">Support</a></li>
+      <li><a href="https://themes.shopify.com/">Shopify Theme Store</a></li>
+    </ul></nav>
+    <p class="site-footer__legal">© 2026 CHRISPSDesign. Shopify is a trademark of Shopify Inc.</p>
+  </div>
+</footer>
+<script>
+  // Collapse the docs menu on narrow screens; it stays open on wide ones.
+  if (window.matchMedia('(max-width: 899px)').matches) document.querySelector('[data-docs-menu]').open = false;
+</script>
+</body>
+</html>

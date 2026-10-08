@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Routine quiz | Dewline docs</title>
+<meta name="description" content="The routine quiz asks shoppers a few questions, one at a time, then recommends a routine with its products and an Add my routine to bag button. It is built entirely from theme editor blocks, so you do not need an app.">
+<meta name="theme-color" content="#F5F3EE">
+<link rel="icon" href="../assets/dewline-mark.svg" type="image/svg+xml">
+<link rel="preload" href="../assets/fonts/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="page-docs">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="../index.html"><img src="../assets/dewline-lockup.svg" width="126" height="32" alt="Dewline home"></a>
+    <nav aria-label="Main"><ul class="site-nav"><li><a href="../docs/index.html" aria-current="page">Docs</a></li><li><a href="../faq.html">FAQ</a></li><li><a href="../support.html">Support</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<div class="wrap docs">
+  <aside class="docs__side">
+    <details class="docs__menu" open data-docs-menu>
+      <summary>Documentation menu</summary>
+      <nav aria-label="Documentation"><ol class="docs__list"><li><a href="getting-started.html">Getting started</a></li><li><a href="styles.html">Styles guide</a></li><li><a href="product-data.html">Product data with metafields</a></li><li><a href="routine-quiz.html" aria-current="page">Routine quiz</a></li><li><a href="ingredient-glossary.html">Ingredient glossary</a></li><li><a href="routines.html">Routines and subscriptions</a></li><li><a href="product-pages.html">Product pages</a></li><li><a href="home-page.html">Home page sections</a></li><li><a href="collections-search-cart.html">Collections, search and cart</a></li><li><a href="translations-markets.html">Translations and markets</a></li></ol></nav>
+    </details>
+  </aside>
+  <article class="docs__main prose">
+    <p class="crumbs"><a href="index.html">Docs</a> <span aria-hidden="true">/</span> Routine quiz</p>
+    <h1 id="routine-quiz">Routine quiz</h1>
+<p>The routine quiz asks shoppers a few questions, one at a time, then recommends a routine with its products and an <strong>Add my routine to bag</strong> button. It is built entirely from theme editor blocks, so you do not need an app.</p>
+<h2 id="how-it-works">How it works</h2>
+<ul>
+<li>The quiz has <strong>questions</strong>, each with <strong>answers</strong>, and <strong>results</strong>.</li>
+<li>Every answer gives points to one or more <strong>result keys</strong>, like <code>dry</code> or <code>oily</code>.</li>
+<li>When the shopper finishes, the result with the most points is shown.</li>
+<li>If two results tie, the one higher in your block list wins. If no answer scored at all, the first result shows.</li>
+<li>The last result is remembered in the shopper&#39;s browser, so returning visitors see a <strong>See your last result</strong> button.</li>
+</ul>
+<h2 id="create-the-quiz-page">Create the quiz page</h2>
+<ol>
+<li>In your Shopify admin, go to <strong>Online Store &gt; Pages</strong> and select <strong>Add page</strong>.</li>
+<li>Enter a title, for example &quot;Find your routine&quot;. You can leave the content empty.</li>
+<li>Under <strong>Theme template</strong>, choose <strong>quiz</strong> (the <code>page.quiz</code> template).</li>
+<li>Select <strong>Save</strong>.</li>
+<li>Add the page to your menu in <strong>Online Store &gt; Navigation</strong> so shoppers can find it.</li>
+</ol>
+<p>The quiz template ships with five sample questions and four results (dry, oily, sensitive and dull skin). Edit them to match your products.</p>
+<h2 id="open-the-quiz-in-the-theme-editor">Open the quiz in the theme editor</h2>
+<ol>
+<li>Go to <strong>Online Store &gt; Themes</strong> and select <strong>Customize</strong>.</li>
+<li>From the page selector at the top, choose <strong>Pages &gt; quiz</strong>.</li>
+<li>Select the <strong>Routine quiz</strong> section in the left sidebar.</li>
+</ol>
+<p>In the section settings you can change the eyebrow, heading, intro text, color scheme and spacing. Italic text in the heading shows in the accent color.</p>
+<h2 id="edit-questions">Edit questions</h2>
+<ol>
+<li>Under the Routine quiz section, select a <strong>Question</strong> block.</li>
+<li>Set the <strong>Question</strong> text and optional <strong>Help text</strong> shown underneath.</li>
+<li>Under <strong>Answers</strong>, choose:<ul>
+<li><strong>Choose one</strong>: the shopper picks a single answer.</li>
+<li><strong>Choose any</strong>: the shopper can pick several. Every checked answer adds its points.</li>
+</ul>
+</li>
+<li>To add a question, select <strong>Add block &gt; Question</strong>. Drag blocks to reorder them.</li>
+</ol>
+<p>The quiz shows questions in the order of the blocks. Keep it short: four to six questions is the sweet spot.</p>
+<h2 id="edit-answers">Edit answers</h2>
+<p>Each Question block holds <strong>Answer</strong> blocks.</p>
+<ol>
+<li>Select an Answer under its question.</li>
+<li>Set the <strong>Answer</strong> label, an optional one-line <strong>Description</strong> and an optional <strong>Image</strong> (shown as a small square).</li>
+<li>Fill in <strong>Results it favors</strong> with result keys.</li>
+</ol>
+<h3 id="the-points-format">The points format</h3>
+<p><strong>Results it favors</strong> is a list of result keys separated by commas. Each key is worth 1 point. Add a colon and a number to give it more weight.</p>
+<div class="table-wrap" role="region" aria-label="The points format: You type, Points given" tabindex="0"><table>
+<thead>
+<tr>
+<th>You type</th>
+<th>Points given</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>dry</code></td>
+<td>dry +1</td>
+</tr>
+<tr>
+<td><code>dry:2</code></td>
+<td>dry +2</td>
+</tr>
+<tr>
+<td><code>dry, sensitive</code></td>
+<td>dry +1, sensitive +1</td>
+</tr>
+<tr>
+<td><code>sensitive:3, dry</code></td>
+<td>sensitive +3, dry +1</td>
+</tr>
+<tr>
+<td><code>oily:1.5</code></td>
+<td>oily +1.5</td>
+</tr>
+</tbody></table>
+</div>
+<p>Rules to keep in mind:</p>
+<ul>
+<li>Keys are not case sensitive. <code>Dry</code> and <code>dry</code> are the same.</li>
+<li>Spaces around commas and colons are ignored.</li>
+<li>Use a weight of 1 or more. A weight of 0, or anything that is not a number, counts as 1.</li>
+<li>An answer key that matches no result is simply ignored.</li>
+</ul>
+<h2 id="edit-results">Edit results</h2>
+<ol>
+<li>Select a <strong>Result</strong> block under the Routine quiz section.</li>
+<li>Set the <strong>Result key</strong>. This is the word answers point to, for example <code>dry</code>. Use letters only, and make each key unique.</li>
+<li>Write the <strong>Heading</strong> and <strong>Text</strong> the shopper sees.</li>
+<li>Under <strong>Routine products</strong>, select up to six products in the order they are used.</li>
+<li>Optional: pick a <strong>Collection link</strong> (&quot;Shop the full edit&quot;) and add an <strong>Offer note</strong>, such as a discount code.</li>
+</ol>
+<p>The result shows the products as numbered steps with a running total. Shoppers can uncheck products they already own, then select <strong>Add my routine to bag</strong> to add the rest in one go. Sold-out products show as unavailable and are skipped.</p>
+<p>Tip: while editing, select a Question or Result block in the sidebar and the preview jumps straight to it.</p>
+<h2 id="tips">Tips</h2>
+<ul>
+<li><strong>Give every result a fair chance.</strong> Count how many points each key can earn across all questions. If one key can earn far more, it will win too often.</li>
+<li><strong>Use weights for strong signals.</strong> An answer like &quot;It stings or turns red quickly&quot; is a clear sign of sensitive skin, so give it <code>sensitive:3</code>.</li>
+<li><strong>Put your most general result first.</strong> It wins ties and shows when nothing scored.</li>
+<li><strong>Test it yourself.</strong> Preview the page and take the quiz with different answers to check every result can win.</li>
+<li><strong>Link to it everywhere.</strong> Add a button to the quiz from your hero, a rich text section or the menu.</li>
+<li><strong>Without JavaScript</strong>, the page lists every result so shoppers can still browse the routines.</li>
+</ul>
+
+    <nav class="pager" aria-label="Previous and next">
+    <a class="pager__link" href="product-data.html" rel="prev"><span>Previous</span>Product data with metafields</a>
+    <a class="pager__link pager__link--next" href="ingredient-glossary.html" rel="next"><span>Next</span>Ingredient glossary</a>
+  </nav>
+  </article>
+  <aside class="docs__toc" aria-labelledby="toc-h"><p class="docs__toc-title" id="toc-h">On this page</p><ul><li><a href="#how-it-works">How it works</a></li><li><a href="#create-the-quiz-page">Create the quiz page</a></li><li><a href="#open-the-quiz-in-the-theme-editor">Open the quiz in the theme editor</a></li><li><a href="#edit-questions">Edit questions</a></li><li><a href="#edit-answers">Edit answers</a></li><li><a href="#edit-results">Edit results</a></li><li><a href="#tips">Tips</a></li></ul></aside>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="../assets/dewline-mark-light.svg" width="40" height="40" alt="">
+      <p><strong>Dewline</strong> by CHRISPSDesign<br><span>A Shopify theme for beauty, skincare and supplements.</span></p>
+    </div>
+    <nav aria-label="Footer"><ul class="site-footer__links">
+      <li><a href="../docs/index.html">Documentation</a></li>
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../support.html">Support</a></li>
+      <li><a href="https://themes.shopify.com/">Shopify Theme Store</a></li>
+    </ul></nav>
+    <p class="site-footer__legal">© 2026 CHRISPSDesign. Shopify is a trademark of Shopify Inc.</p>
+  </div>
+</footer>
+<script>
+  // Collapse the docs menu on narrow screens; it stays open on wide ones.
+  if (window.matchMedia('(max-width: 899px)').matches) document.querySelector('[data-docs-menu]').open = false;
+</script>
+</body>
+</html>

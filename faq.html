@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FAQ | Dewline</title>
+<meta name="description" content="Answers to common questions about the Dewline Shopify theme.">
+<meta name="theme-color" content="#F5F3EE">
+<link rel="icon" href="assets/dewline-mark.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="index.html"><img src="assets/dewline-lockup.svg" width="126" height="32" alt="Dewline home"></a>
+    <nav aria-label="Main"><ul class="site-nav"><li><a href="docs/index.html">Docs</a></li><li><a href="faq.html" aria-current="page">FAQ</a></li><li><a href="support.html">Support</a></li></ul></nav>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">FAQ</p>
+    <h1>Questions, <em>answered</em></h1>
+    <div class="lede"><p>Quick answers to the questions merchants ask most. Can&#39;t find yours? <a href="support.html">Contact support</a>.</p>
+</div>
+  </div>
+</section>
+<div class="wrap faq section-tight">
+  <nav class="faq__toc" aria-label="Questions"><p class="docs__toc-title">Jump to a question</p><ol><li><a href="#do-i-need-an-app-for-the-routine-quiz">Do I need an app for the routine quiz?</a></li><li><a href="#why-don-t-my-key-ingredients-or-supplement-facts-show-on-a-product">Why don't my key ingredients or supplement facts show on a product?</a></li><li><a href="#my-supplement-facts-table-puts-a-nutrient-in-the-wrong-place-why">My supplement facts table puts a nutrient in the wrong place. Why?</a></li><li><a href="#can-i-use-one-product-template-for-skincare-and-supplements">Can I use one product template for skincare and supplements?</a></li><li><a href="#how-does-the-quiz-pick-a-result">How does the quiz pick a result?</a></li><li><a href="#can-shoppers-subscribe-and-save">Can shoppers subscribe and save?</a></li><li><a href="#do-routines-and-quiz-results-add-subscriptions">Do routines and quiz results add subscriptions?</a></li><li><a href="#how-do-i-change-the-free-shipping-amount">How do I change the free shipping amount?</a></li><li><a href="#where-do-the-collection-filters-come-from">Where do the collection filters come from?</a></li><li><a href="#how-do-i-link-to-one-ingredient-in-the-glossary">How do I link to one ingredient in the glossary?</a></li><li><a href="#can-i-switch-between-the-dewline-pigment-and-tonic-styles">Can I switch between the Dewline, Pigment and Tonic styles?</a></li><li><a href="#is-dewline-translated">Is Dewline translated?</a></li><li><a href="#does-dewline-show-star-ratings">Does Dewline show star ratings?</a></li><li><a href="#is-dewline-accessible">Is Dewline accessible?</a></li><li><a href="#can-i-show-results-claims-like-94-saw-brighter-skin">Can I show results claims like &quot;94% saw brighter skin&quot;?</a></li><li><a href="#how-do-i-get-help">How do I get help?</a></li></ol></nav>
+  <div class="faq__list"><section class="faq__item" aria-labelledby="do-i-need-an-app-for-the-routine-quiz"><h2 id="do-i-need-an-app-for-the-routine-quiz">Do I need an app for the routine quiz?</h2><div class="prose"><p>No. The quiz is built from theme editor blocks: questions, answers and results. Create a page, assign the <code>page.quiz</code> template and edit it in the theme editor. See <a href="docs/routine-quiz.html">Routine quiz</a>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="why-don-t-my-key-ingredients-or-supplement-facts-show-on-a-product"><h2 id="why-don-t-my-key-ingredients-or-supplement-facts-show-on-a-product">Why don't my key ingredients or supplement facts show on a product?</h2><div class="prose"><p>These blocks hide when they have no content. Check that:</p>
+<ol>
+<li>The metafield definition exists with the exact key, for example <code>custom.key_ingredients</code>.</li>
+<li>The product has a value for it in the <strong>Metafields</strong> card.</li>
+<li>The block is connected to that metafield in the theme editor.</li>
+</ol>
+<p>See <a href="docs/product-data.html">Product data with metafields</a>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="my-supplement-facts-table-puts-a-nutrient-in-the-wrong-place-why"><h2 id="my-supplement-facts-table-puts-a-nutrient-in-the-wrong-place-why">My supplement facts table puts a nutrient in the wrong place. Why?</h2><div class="prose"><p>Nutrient lines need three parts: <code>Nutrient | amount | % Daily Value</code>. A line with only two parts is read as a serving line, like <code>Serving size | 1 scoop</code>. If a nutrient has no Daily Value, put <code>†</code> in the third part.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="can-i-use-one-product-template-for-skincare-and-supplements"><h2 id="can-i-use-one-product-template-for-skincare-and-supplements">Can I use one product template for skincare and supplements?</h2><div class="prose"><p>Yes. Every data block hides itself when its metafield is empty, so a serum won&#39;t show supplement facts and a vitamin won&#39;t show a results timeline unless you fill them in.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="how-does-the-quiz-pick-a-result"><h2 id="how-does-the-quiz-pick-a-result">How does the quiz pick a result?</h2><div class="prose"><p>Each answer adds points to one or more result keys, like <code>dry:2, sensitive</code>. The result with the most points wins. On a tie, the result higher in your block list wins. See <a href="docs/routine-quiz.html#the-points-format">the points format</a>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="can-shoppers-subscribe-and-save"><h2 id="can-shoppers-subscribe-and-save">Can shoppers subscribe and save?</h2><div class="prose"><p>Yes. Install a subscriptions app such as Shopify Subscriptions and add your products to a plan. The Buy buttons block then shows one-time and subscription options with the discount and delivery frequency. No theme setting is needed.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="do-routines-and-quiz-results-add-subscriptions"><h2 id="do-routines-and-quiz-results-add-subscriptions">Do routines and quiz results add subscriptions?</h2><div class="prose"><p>No. The routine block, the routine builder and quiz results add one-time purchases. Shoppers choose a subscription on the product page.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="how-do-i-change-the-free-shipping-amount"><h2 id="how-do-i-change-the-free-shipping-amount">How do I change the free shipping amount?</h2><div class="prose"><p>Go to <strong>Theme settings &gt; Cart &gt; Free shipping threshold</strong> and enter an amount, like <code>50</code>. Leave it empty to hide the bar. Remember to set the matching free shipping rate in <strong>Settings &gt; Shipping and delivery</strong>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="where-do-the-collection-filters-come-from"><h2 id="where-do-the-collection-filters-come-from">Where do the collection filters come from?</h2><div class="prose"><p>From Shopify&#39;s free Search and Discovery app. Add filters there (price, availability, product type, tags or metafields like skin type) and they appear on collection and search pages.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="how-do-i-link-to-one-ingredient-in-the-glossary"><h2 id="how-do-i-link-to-one-ingredient-in-the-glossary">How do I link to one ingredient in the glossary?</h2><div class="prose"><p>Add <code>#</code> and the ingredient name in lowercase with hyphens to the page URL, for example <code>/pages/ingredients#hyaluronic-acid</code>. See <a href="docs/ingredient-glossary.html">Ingredient glossary</a>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="can-i-switch-between-the-dewline-pigment-and-tonic-styles"><h2 id="can-i-switch-between-the-dewline-pigment-and-tonic-styles">Can I switch between the Dewline, Pigment and Tonic styles?</h2><div class="prose"><p>Yes. You can add the theme again with another style, or change the style from Theme settings. Changing the style replaces your colors, fonts and layout settings, but not your section content. See <a href="docs/styles.html">Styles guide</a>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="is-dewline-translated"><h2 id="is-dewline-translated">Is Dewline translated?</h2><div class="prose"><p>The theme&#39;s storefront text is included in English and French. For other languages, and to translate your own content, use Shopify&#39;s Translate and Adapt app. See <a href="docs/translations-markets.html">Translations and markets</a>.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="does-dewline-show-star-ratings"><h2 id="does-dewline-show-star-ratings">Does Dewline show star ratings?</h2><div class="prose"><p>Yes, when you use a product reviews app that fills Shopify&#39;s product rating. Ratings show on product cards, in the Title block and in the Rating block.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="is-dewline-accessible"><h2 id="is-dewline-accessible">Is Dewline accessible?</h2><div class="prose"><p>Dewline is built to WCAG 2.1 AA: visible focus, labels on every field, keyboard support for menus, tabs and the quiz, screen reader announcements for cart and quiz updates, and reduced motion support. Keep your own colors high contrast and add alt text to your images.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="can-i-show-results-claims-like-94-saw-brighter-skin"><h2 id="can-i-show-results-claims-like-94-saw-brighter-skin">Can I show results claims like &quot;94% saw brighter skin&quot;?</h2><div class="prose"><p>The Results section, Results timeline block and hero badge are built for claims, but the numbers in the demo are examples. Only publish results you can support, and use the disclaimer or footnote setting to say where they come from.</p>
+</div></section>
+<section class="faq__item" aria-labelledby="how-do-i-get-help"><h2 id="how-do-i-get-help">How do I get help?</h2><div class="prose"><p>Use the <a href="support.html">support form</a>. We reply within 2 business days. Include your store URL and a screenshot if you can.</p>
+</div></section></div>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="assets/dewline-mark-light.svg" width="40" height="40" alt="">
+      <p><strong>Dewline</strong> by CHRISPSDesign<br><span>A Shopify theme for beauty, skincare and supplements.</span></p>
+    </div>
+    <nav aria-label="Footer"><ul class="site-footer__links">
+      <li><a href="docs/index.html">Documentation</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a href="https://themes.shopify.com/">Shopify Theme Store</a></li>
+    </ul></nav>
+    <p class="site-footer__legal">© 2026 CHRISPSDesign. Shopify is a trademark of Shopify Inc.</p>
+  </div>
+</footer>
+
+</body>
+</html>
