@@ -30,7 +30,7 @@
     <p class="crumbs"><a href="index.html">Docs</a> <span aria-hidden="true">/</span> Product data with metafields</p>
     <h1 id="product-data-with-metafields">Product data with metafields</h1>
 <p>Dewline&#39;s product blocks (key ingredients, results, supplement facts, free from, how to use, the full ingredient list and routines) read their content from <strong>metafields</strong>. You create each metafield once, fill it in on every product, and each product page shows its own data.</p>
-<p>Good news: the default product template already connects these blocks to the metafields below. If you create the definitions with <strong>exactly</strong> these namespaces and keys, the blocks fill in on their own. You only need to connect them by hand if you use different keys.</p>
+<p>The blocks are already on the default product template, and each one stays hidden until it has content. After you create the definitions below, connect each block to its metafield once (see <a href="#connect-a-block-to-a-metafield">Connect a block to a metafield</a>); every product then shows its own data. Shopify only lists a metafield for connection after its definition exists, which is why the theme cannot connect them for you.</p>
 <h2 id="the-metafields-dewline-expects">The metafields Dewline expects</h2>
 <div class="table-wrap" role="region" aria-label="The metafields Dewline expects: Name (your choice), Namespace and key, Type, Used by block" tabindex="0"><table>
 <thead>
@@ -183,7 +183,7 @@ Follow with moisturizer.</code></pre>
 <h3 id="morning-and-evening-routines">Morning and evening routines</h3>
 <p>Pick the products in the order they are used, up to eight for each routine. See <a href="routines.html">Routines and subscriptions</a> for how the block works.</p>
 <h2 id="connect-a-block-to-a-metafield">Connect a block to a metafield</h2>
-<p>Do this if you used different keys, or if you add one of these blocks to another template.</p>
+<p>Do this once for each block after you create the definitions, and again if you add one of these blocks to another template.</p>
 <ol>
 <li>Go to <strong>Online Store &gt; Themes</strong> and select <strong>Customize</strong>.</li>
 <li>From the page selector at the top, choose <strong>Products &gt; Default product</strong> (or your product template).</li>
