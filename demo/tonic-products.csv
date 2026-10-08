@@ -1,0 +1,132 @@
+Title,URL handle,Description,Vendor,Type,Tags,Published on online store,Status,SKU,Option1 name,Option1 value,Price,Compare-at price,Charge tax,Inventory tracker,Inventory quantity,Continue selling when out of stock,Weight value (grams),Requires shipping,Fulfillment service,Product image URL,Image position,Image alt text,SEO title,SEO description,Subtitle (product.metafields.descriptors.subtitle),Key ingredients (product.metafields.custom.key_ingredients),Results (product.metafields.custom.results),Supplement facts (product.metafields.custom.supplement_facts),Free from (product.metafields.custom.free_from),How to use (product.metafields.custom.how_to_use),Morning routine (product.metafields.custom.routine_am),Evening routine (product.metafields.custom.routine_pm)
+Daily Greens,daily-greens,"<p>One scoop a day of greens, prebiotic fiber and the vitamins most of us miss. Mixes smooth into water or a smoothie and tastes fresh, not grassy.*</p>",Tonic Wellness,Powder,"bestseller, vegan, goal:energy, goal:gut",true,active,TN-DAILY-GREENS-MINT-LIME,Flavor,Mint lime,54.00,,true,shopify,36,deny,260,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-matcha-spoon.jpg,1,Wooden spoon heaped with Daily Greens powder,Daily Greens | Tonic,"22 greens, prebiotics and vitamins. One scoop a day of greens, prebiotic fiber and the vitamins most of us miss. Mixes smooth into water or a smoothie...","22 greens, prebiotics and vitamins","Spirulina | Plant protein and iron
+Prebiotic fiber | Feeds healthy gut bacteria*
+Vitamin D3 | Supports immune function*","2 weeks | 84% said they felt more energized*
+30 days | 79% said digestion felt more regular*","Serving size | 1 scoop (7 g)
+Servings per container | 30
+Vitamin C (as ascorbic acid) | 90 mg | 100%
+Vitamin D3 (as cholecalciferol) | 20 mcg | 100%
+Vitamin B12 (as methylcobalamin) | 2.4 mcg | 100%
+Zinc (as zinc citrate) | 5.5 mg | 50%
+Organic greens blend (spirulina, chlorella, wheatgrass, barley grass, spinach) | 3 g | †
+Prebiotic fiber (organic inulin) | 2 g | †
+Probiotic blend (L. acidophilus, B. lactis) | 5 billion CFU | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Soy, Added sugar","Mix 1 scoop into 8 oz of cold water or a smoothie.
+Take once a day, with or without food.",daily-greens; vitamin-d3-k2; omega-3-softgels,magnesium-glycinate; sleep-gummies
+,daily-greens,,,,,,,TN-DAILY-GREENS-UNFLAVORED,Flavor,Unflavored,54.00,,true,shopify,5,deny,260,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-green-drink.jpg,2,Iced Daily Greens drink in a glass tumbler,,,,,,,,,,
+Magnesium Glycinate,magnesium-glycinate,"<p>A highly absorbable, stomach-friendly form of magnesium to support relaxation and restful sleep.* Two capsules in the evening.</p>",Tonic Wellness,Capsules,"bestseller, vegan, goal:sleep",true,active,TN-MAGNESIUM-GLYCINATE-60-CAPSULES,Count,60 capsules,26.00,,true,shopify,36,deny,140,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-capsule-jar-clay.jpg,1,Clear jar of Magnesium Glycinate capsules on a terracotta background,Magnesium Glycinate | Tonic,"Gentle magnesium for calm evenings. A highly absorbable, stomach-friendly form of magnesium to support relaxation and restful sleep. Two capsules in...",Gentle magnesium for calm evenings,"Magnesium bisglycinate | Supports muscle relaxation*
+Glycine | Supports restful sleep*",,"Serving size | 2 capsules
+Servings per container | 30 or 60
+Magnesium (as magnesium bisglycinate) | 200 mg | 48%
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Soy, Fillers","Take 2 capsules in the evening with water.
+Check with your doctor if you take medication.",,magnesium-glycinate; sleep-gummies
+,magnesium-glycinate,,,,,,,TN-MAGNESIUM-GLYCINATE-120-CAPSULES,Count,120 capsules,44.00,,true,shopify,36,deny,140,true,manual,,,,,,,,,,,,,
+Deep Sleep Gummies,sleep-gummies,"<p>Melatonin-free gummies with L-theanine, chamomile and magnesium to help you unwind at the end of the day.* Natural berry flavor.</p>",Tonic Wellness,Gummies,"bestseller, vegan, goal:sleep",true,active,TN-SLEEP-GUMMIES,Title,Default Title,28.00,,true,shopify,36,deny,180,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-gummy-jar-apricot.jpg,1,Amber jar of Deep Sleep Gummies on an apricot background,Deep Sleep Gummies | Tonic,"Melatonin-free, with chamomile. Melatonin-free gummies with L-theanine, chamomile and magnesium to help you unwind at the end of the day. Natural berry...","Melatonin-free, with chamomile","L-theanine | Supports relaxation*
+Chamomile | A calming evening herb
+Magnesium | Supports muscle relaxation*",,"Serving size | 2 gummies
+Servings per container | 30
+Total carbohydrate | 4 g | 1%
+Total sugars | 2 g | †
+Includes added sugars | 2 g | 4%
+Magnesium (as magnesium citrate) | 50 mg | 12%
+L-theanine | 200 mg | †
+Lemon balm leaf extract | 100 mg | †
+Chamomile flower extract | 50 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Melatonin, Gelatin, Gluten, Artificial colors",Chew 2 gummies 30 minutes before bed.,,magnesium-glycinate; sleep-gummies
+Omega-3 Softgels,omega-3-softgels,"<p>Purified fish oil with 1,130 mg of EPA and DHA per serving to support heart, brain and skin health.* Lemon-finished, with no fishy aftertaste.</p>",Tonic Wellness,Capsules,"goal:energy, goal:skin",true,active,TN-OMEGA-3-SOFTGELS,Title,Default Title,36.00,,true,shopify,36,deny,150,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-softgels-bottle.jpg,1,White Omega-3 Softgels bottle surrounded by golden softgels,Omega-3 Softgels | Tonic,"EPA and DHA from wild fish oil. Purified fish oil with 1,130 mg of EPA and DHA per serving to support heart, brain and skin health. Lemon-finished,...",EPA and DHA from wild fish oil,"EPA 680 mg | Supports heart health*
+DHA 450 mg | Supports brain health*
+Vitamin E | Keeps the oil fresh",,"Serving size | 2 softgels
+Servings per container | 30
+Vitamin E (as d-alpha tocopherol) | 3 mg | 20%
+Total omega-3 fatty acids | 1,200 mg | †
+EPA (eicosapentaenoic acid) | 680 mg | †
+DHA (docosahexaenoic acid) | 450 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Soy",Take 2 softgels a day with a meal.,,
+Ashwagandha Calm,ashwagandha-calm,"<p>A standardized ashwagandha root extract to help your body adapt to everyday stress and support a calm, steady mood.* One capsule a day.</p>",Tonic Wellness,Capsules,"new, vegan, goal:sleep, goal:energy",true,active,TN-ASHWAGANDHA-CALM,Title,Default Title,32.00,,true,shopify,36,deny,120,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-capsule-jar-sage.jpg,1,Clear jar of Ashwagandha Calm capsules on a sage green background,Ashwagandha Calm | Tonic,"Root extract for everyday stress. A standardized ashwagandha root extract to help your body adapt to everyday stress and support a calm, steady mood....",Root extract for everyday stress,"Ashwagandha root 600 mg | Supports a healthy stress response*
+Black pepper extract | Supports absorption","30 days | 82% said they felt calmer day to day*
+60 days | 76% said they slept more soundly*","Serving size | 1 capsule
+Servings per container | 60
+Ashwagandha root extract (5% withanolides) | 600 mg | †
+Black pepper fruit extract | 5 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Soy, Fillers","Take 1 capsule a day with food.
+Not for use during pregnancy or while breastfeeding.",,
+,ashwagandha-calm,,,,,,,,,,,,,,,,,,,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-capsules-herbal-macro.jpg,2,Macro shot of capsules filled with ground ashwagandha root,,,,,,,,,,
+"Hair, Skin and Nails Gummies",beauty-gummies,"<p>Two tangy gummies a day with biotin, vitamin C and zinc to support healthy hair, skin and nails.* Pectin-based and naturally colored.</p>",Tonic Wellness,Gummies,"bestseller, vegan, goal:skin",true,active,TN-BEAUTY-GUMMIES,Title,Default Title,30.00,,true,shopify,36,deny,180,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-gummies-stack.jpg,1,"Stack of pink and lavender Hair, Skin and Nails Gummies","Hair, Skin and Nails Gummies | Tonic","Biotin, zinc and vitamin C. Two tangy gummies a day with biotin, vitamin C and zinc to support healthy hair, skin and nails. Pectin-based and naturally...","Biotin, zinc and vitamin C","Biotin | Supports healthy hair and nails*
+Vitamin C | Supports collagen formation*
+Zinc | Supports healthy skin*",,"Serving size | 2 gummies
+Servings per container | 30
+Total carbohydrate | 5 g | 2%
+Total sugars | 3 g | †
+Includes added sugars | 3 g | 6%
+Vitamin C (as ascorbic acid) | 60 mg | 67%
+Biotin | 2,500 mcg | 8,333%
+Zinc (as zinc citrate) | 5 mg | 45%
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gelatin, Gluten, Artificial colors",Chew 2 gummies a day.,,
+Turmeric Complex,turmeric-complex,<p>Concentrated curcuminoids with ginger and black pepper to support joint comfort and healthy digestion.*</p>,Tonic Wellness,Capsules,"vegan, goal:gut",true,active,TN-TURMERIC-COMPLEX,Title,Default Title,34.00,,true,shopify,36,deny,130,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-turmeric-root-powder.jpg,1,"Turmeric root, Turmeric Complex capsules and turmeric powder in a line",Turmeric Complex | Tonic,"Curcumin, ginger and black pepper. Concentrated curcuminoids with ginger and black pepper to support joint comfort and healthy digestion.","Curcumin, ginger and black pepper","Turmeric extract 95% | Concentrated curcuminoids
+Ginger root | Supports digestion*
+Black pepper extract | Supports absorption",,"Serving size | 2 capsules
+Servings per container | 30
+Turmeric root extract (95% curcuminoids) | 1,000 mg | †
+Ginger root powder | 100 mg | †
+Black pepper fruit extract (95% piperine) | 10 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Soy",Take 2 capsules a day with a meal.,,
+Ceremonial Matcha,ceremonial-matcha,"<p>Stone-ground, first-harvest matcha with a smooth, sweet finish. Natural caffeine and L-theanine for calm, focused energy.*</p>",Tonic Wellness,Powder,"vegan, goal:energy",true,active,TN-CEREMONIAL-MATCHA,Title,Default Title,38.00,,true,shopify,36,deny,120,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-matcha-powder.jpg,1,Streak of bright green Ceremonial Matcha powder,Ceremonial Matcha | Tonic,"First-harvest Japanese matcha. Stone-ground, first-harvest matcha with a smooth, sweet finish. Natural caffeine and L-theanine for calm, focused energy.",First-harvest Japanese matcha,"Ceremonial-grade matcha | Smooth and vivid green
+L-theanine | Supports calm focus*",,"Serving size | 1 tsp (2 g)
+Servings per container | 50
+Organic matcha green tea leaf powder | 2 g | †
+Naturally occurring caffeine | 70 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Additives, Added sugar","Sift 1 tsp into a bowl.
+Add 2 oz of hot (not boiling) water and whisk until frothy.
+Top with water or steamed milk.",,
+,ceremonial-matcha,,,,,,,,,,,,,,,,,,,https://chrispstreeter-max.github.io/dewline/demo/tonic/banner-matcha-ritual.jpg,2,Bowl of whisked matcha with a bamboo whisk,,,,,,,,,,
+Marine Collagen Peptides,marine-collagen,"<p>Wild-caught marine collagen with vitamin C, which supports normal collagen formation.* Unflavored and dissolves clear in hot or cold drinks. Back in stock soon.</p>",Tonic Wellness,Powder,goal:skin,true,active,TN-MARINE-COLLAGEN,Title,Default Title,48.00,,true,shopify,0,deny,360,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-tub-blank-cream.jpg,1,White Marine Collagen Peptides tub with a black lid on cream,Marine Collagen Peptides | Tonic,"Unflavored, dissolves clear. Wild-caught marine collagen with vitamin C, which supports normal collagen formation. Unflavored and dissolves clear in...","Unflavored, dissolves clear","Marine collagen peptides | Types I and III
+Vitamin C | Supports collagen formation*
+Hyaluronic acid | Supports skin hydration*",,"Serving size | 1 scoop (11 g)
+Servings per container | 30
+Vitamin C (as ascorbic acid) | 45 mg | 50%
+Hydrolyzed marine collagen peptides | 10 g | †
+Hyaluronic acid | 120 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Added sugar","Stir 1 scoop into coffee, tea or a smoothie.
+Take once a day.",,
+Vitamin D3 + K2,vitamin-d3-k2,<p>Vitamin D3 to support immune function and K2 to help direct calcium to your bones.* One small softgel a day.</p>,Tonic Wellness,Capsules,goal:energy,true,active,TN-VITAMIN-D3-K2,Title,Default Title,22.00,,true,shopify,36,deny,80,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/tonic-d3-k2.jpg,1,Vitamin D3 + K2 bottle on a warm cream background,Vitamin D3 + K2 | Tonic,"2,000 IU D3 with MK-7. Vitamin D3 to support immune function and K2 to help direct calcium to your bones. One small softgel a day.","2,000 IU D3 with MK-7","Vitamin D3 | Supports immune function*
+Vitamin K2 (MK-7) | Supports bone health*
+Olive oil | For better absorption",,"Serving size | 1 softgel
+Servings per container | 60
+Vitamin D3 (as cholecalciferol) | 50 mcg (2,000 IU) | 250%
+Vitamin K2 (as menaquinone-7) | 100 mcg | 83%
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Gluten, Dairy, Soy","Take 1 softgel a day with a meal.
+Check with your doctor if you take blood thinners.",,
+Electrolyte Sticks,electrolyte-sticks,"<p>A balanced blend of sodium, potassium and magnesium to support hydration after workouts, travel or long days.* One gram of sugar per stick.</p>",Tonic Wellness,Powder,"new, vegan, goal:energy",true,active,TN-ELECTROLYTE-STICKS-CITRUS,Flavor,Citrus,30.00,,true,shopify,36,deny,140,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/tonic-electrolytes.jpg,1,Three Electrolyte Sticks fanned out on pale green,Electrolyte Sticks | Tonic,"Low-sugar hydration, 20 sticks. A balanced blend of sodium, potassium and magnesium to support hydration after workouts, travel or long days. One gram...","Low-sugar hydration, 20 sticks","Sodium 500 mg | Replaces what you sweat out
+Potassium | Supports hydration*
+Magnesium | Supports muscle function*",,"Serving size | 1 stick (6 g)
+Servings per container | 20
+Total carbohydrate | 2 g | 1%
+Total sugars | 1 g | †
+Includes added sugars | 1 g | 2%
+Magnesium (as magnesium citrate) | 60 mg | 14%
+Sodium (as sodium chloride) | 500 mg | 22%
+Potassium (as potassium citrate) | 200 mg | 4%
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Artificial sweeteners, Artificial colors, Gluten",Empty 1 stick into 16 oz of water and stir.,,
+,electrolyte-sticks,,,,,,,TN-ELECTROLYTE-STICKS-WATERMELON,Flavor,Watermelon,30.00,,true,shopify,0,deny,140,true,manual,,,,,,,,,,,,,
+Golden Milk Blend,golden-milk-blend,"<p>A warming caffeine-free blend of turmeric, ginger and Ceylon cinnamon. Whisk into steamed milk for a cozy evening ritual.</p>",Tonic Wellness,Powder,"vegan, goal:sleep, goal:gut",true,active,TN-GOLDEN-MILK-BLEND,Title,Default Title,28.00,,true,shopify,36,deny,130,true,manual,https://chrispstreeter-max.github.io/dewline/demo/tonic/supplements-turmeric-latte.jpg,1,Golden Milk latte on a saucer with fresh turmeric root in sunlight,Golden Milk Blend | Tonic,"Turmeric, ginger and cinnamon. A warming caffeine-free blend of turmeric, ginger and Ceylon cinnamon. Whisk into steamed milk for a cozy evening ritual.","Turmeric, ginger and cinnamon","Organic turmeric | Earthy and warming
+Ginger | Supports digestion*
+Ceylon cinnamon | Naturally sweet",,"Serving size | 1 tsp (3 g)
+Servings per container | 30
+Organic turmeric root powder | 1.5 g | †
+Organic ginger root powder | 400 mg | †
+Organic Ceylon cinnamon bark powder | 300 mg | †
+Organic black pepper fruit powder | 10 mg | †
+† Daily Value not established.
+* These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.","Caffeine, Added sugar, Gluten","Whisk 1 tsp into 8 oz of warm milk.
+Sweeten with honey if you like.",,
