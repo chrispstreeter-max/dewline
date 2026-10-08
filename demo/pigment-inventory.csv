@@ -1,0 +1,44 @@
+Handle,Title,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,SKU,HS Code,COO,Location,Bin name,Incoming (not editable),Unavailable (not editable),Committed (not editable),Available (not editable),On hand (current),On hand (new)
+second-skin-tint,Second Skin Tint,Shade,1 Porcelain,,,,,PG-SECOND-SKIN-TINT-1-PORCELAIN,,,Shop location,,0,0,0,0,0,6
+second-skin-tint,Second Skin Tint,Shade,2 Fair,,,,,PG-SECOND-SKIN-TINT-2-FAIR,,,Shop location,,0,0,0,0,0,36
+second-skin-tint,Second Skin Tint,Shade,3 Light,,,,,PG-SECOND-SKIN-TINT-3-LIGHT,,,Shop location,,0,0,0,0,0,36
+second-skin-tint,Second Skin Tint,Shade,4 Medium,,,,,PG-SECOND-SKIN-TINT-4-MEDIUM,,,Shop location,,0,0,0,0,0,36
+second-skin-tint,Second Skin Tint,Shade,5 Tan,,,,,PG-SECOND-SKIN-TINT-5-TAN,,,Shop location,,0,0,0,0,0,36
+second-skin-tint,Second Skin Tint,Shade,6 Deep,,,,,PG-SECOND-SKIN-TINT-6-DEEP,,,Shop location,,0,0,0,0,0,0
+velvet-lip-color,Velvet Lip Color,Shade,Cherry,,,,,PG-VELVET-LIP-COLOR-CHERRY,,,Shop location,,0,0,0,0,0,36
+velvet-lip-color,Velvet Lip Color,Shade,Berry,,,,,PG-VELVET-LIP-COLOR-BERRY,,,Shop location,,0,0,0,0,0,36
+velvet-lip-color,Velvet Lip Color,Shade,Brick,,,,,PG-VELVET-LIP-COLOR-BRICK,,,Shop location,,0,0,0,0,0,3
+velvet-lip-color,Velvet Lip Color,Shade,Rose,,,,,PG-VELVET-LIP-COLOR-ROSE,,,Shop location,,0,0,0,0,0,36
+velvet-lip-color,Velvet Lip Color,Shade,Nude,,,,,PG-VELVET-LIP-COLOR-NUDE,,,Shop location,,0,0,0,0,0,36
+cheek-flush-blush,Cheek Flush Blush,Shade,Coral,,,,,PG-CHEEK-FLUSH-BLUSH-CORAL,,,Shop location,,0,0,0,0,0,36
+cheek-flush-blush,Cheek Flush Blush,Shade,Petal,,,,,PG-CHEEK-FLUSH-BLUSH-PETAL,,,Shop location,,0,0,0,0,0,36
+cheek-flush-blush,Cheek Flush Blush,Shade,Terracotta,,,,,PG-CHEEK-FLUSH-BLUSH-TERRACOTTA,,,Shop location,,0,0,0,0,0,36
+cheek-flush-blush,Cheek Flush Blush,Shade,Berry,,,,,PG-CHEEK-FLUSH-BLUSH-BERRY,,,Shop location,,0,0,0,0,0,36
+glow-highlighter,Glow Highlighter,Shade,Champagne,,,,,PG-GLOW-HIGHLIGHTER-CHAMPAGNE,,,Shop location,,0,0,0,0,0,36
+glow-highlighter,Glow Highlighter,Shade,Rose gold,,,,,PG-GLOW-HIGHLIGHTER-ROSE-GOLD,,,Shop location,,0,0,0,0,0,36
+bold-matte-lipstick,Bold Matte Lipstick,Shade,Tangerine,,,,,PG-BOLD-MATTE-LIPSTICK-TANGERINE,,,Shop location,,0,0,0,0,0,36
+bold-matte-lipstick,Bold Matte Lipstick,Shade,Poppy,,,,,PG-BOLD-MATTE-LIPSTICK-POPPY,,,Shop location,,0,0,0,0,0,36
+bold-matte-lipstick,Bold Matte Lipstick,Shade,Plum,,,,,PG-BOLD-MATTE-LIPSTICK-PLUM,,,Shop location,,0,0,0,0,0,36
+bold-matte-lipstick,Bold Matte Lipstick,Shade,Mocha,,,,,PG-BOLD-MATTE-LIPSTICK-MOCHA,,,Shop location,,0,0,0,0,0,36
+soft-blur-concealer,Soft Blur Concealer,Shade,1 Porcelain,,,,,PG-SOFT-BLUR-CONCEALER-1-PORCELAIN,,,Shop location,,0,0,0,0,0,36
+soft-blur-concealer,Soft Blur Concealer,Shade,2 Fair,,,,,PG-SOFT-BLUR-CONCEALER-2-FAIR,,,Shop location,,0,0,0,0,0,36
+soft-blur-concealer,Soft Blur Concealer,Shade,3 Light,,,,,PG-SOFT-BLUR-CONCEALER-3-LIGHT,,,Shop location,,0,0,0,0,0,36
+soft-blur-concealer,Soft Blur Concealer,Shade,4 Medium,,,,,PG-SOFT-BLUR-CONCEALER-4-MEDIUM,,,Shop location,,0,0,0,0,0,36
+soft-blur-concealer,Soft Blur Concealer,Shade,5 Tan,,,,,PG-SOFT-BLUR-CONCEALER-5-TAN,,,Shop location,,0,0,0,0,0,36
+soft-blur-concealer,Soft Blur Concealer,Shade,6 Deep,,,,,PG-SOFT-BLUR-CONCEALER-6-DEEP,,,Shop location,,0,0,0,0,0,36
+soft-focus-eye-quad,Soft Focus Eye Quad,Palette,Rose quartz,,,,,PG-SOFT-FOCUS-EYE-QUAD-ROSE-QUARTZ,,,Shop location,,0,0,0,0,0,36
+soft-focus-eye-quad,Soft Focus Eye Quad,Palette,Bronze hour,,,,,PG-SOFT-FOCUS-EYE-QUAD-BRONZE-HOUR,,,Shop location,,0,0,0,0,0,36
+juicy-lip-tint,Juicy Lip Tint,Shade,Rosewood,,,,,PG-JUICY-LIP-TINT-ROSEWOOD,,,Shop location,,0,0,0,0,0,36
+juicy-lip-tint,Juicy Lip Tint,Shade,Peach,,,,,PG-JUICY-LIP-TINT-PEACH,,,Shop location,,0,0,0,0,0,36
+juicy-lip-tint,Juicy Lip Tint,Shade,Berry,,,,,PG-JUICY-LIP-TINT-BERRY,,,Shop location,,0,0,0,0,0,36
+juicy-lip-tint,Juicy Lip Tint,Shade,Clear,,,,,PG-JUICY-LIP-TINT-CLEAR,,,Shop location,,0,0,0,0,0,36
+lift-length-mascara,Lift and Length Mascara,Shade,Black,,,,,PG-LIFT-LENGTH-MASCARA-BLACK,,,Shop location,,0,0,0,0,0,36
+lift-length-mascara,Lift and Length Mascara,Shade,Brown black,,,,,PG-LIFT-LENGTH-MASCARA-BROWN-BLACK,,,Shop location,,0,0,0,0,0,36
+featherweight-setting-powder,Featherweight Setting Powder,Shade,Translucent,,,,,PG-FEATHERWEIGHT-SETTING-POWDER-TRANSLUCENT,,,Shop location,,0,0,0,0,0,36
+featherweight-setting-powder,Featherweight Setting Powder,Shade,Deep translucent,,,,,PG-FEATHERWEIGHT-SETTING-POWDER-DEEP-TRANSLUCENT,,,Shop location,,0,0,0,0,0,36
+brow-set-gel,Brow Set Gel,Shade,Clear,,,,,PG-BROW-SET-GEL-CLEAR,,,Shop location,,0,0,0,0,0,36
+brow-set-gel,Brow Set Gel,Shade,Taupe,,,,,PG-BROW-SET-GEL-TAUPE,,,Shop location,,0,0,0,0,0,36
+brow-set-gel,Brow Set Gel,Shade,Brunette,,,,,PG-BROW-SET-GEL-BRUNETTE,,,Shop location,,0,0,0,0,0,36
+brow-set-gel,Brow Set Gel,Shade,Ebony,,,,,PG-BROW-SET-GEL-EBONY,,,Shop location,,0,0,0,0,0,36
+essential-brush-set,The Essential Brush Set,Title,Default Title,,,,,PG-ESSENTIAL-BRUSH-SET,,,Shop location,,0,0,0,0,0,36
+fluffy-powder-brush,Fluffy Powder Brush,Title,Default Title,,,,,PG-FLUFFY-POWDER-BRUSH,,,Shop location,,0,0,0,0,0,36

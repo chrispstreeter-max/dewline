@@ -1,0 +1,20 @@
+Handle,Title,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,SKU,HS Code,COO,Location,Bin name,Incoming (not editable),Unavailable (not editable),Committed (not editable),Available (not editable),On hand (current),On hand (new)
+gentle-gel-cleanser,Gentle Gel Cleanser,Title,Default Title,,,,,DW-GENTLE-GEL-CLEANSER,,,Shop location,,0,0,0,0,0,36
+milk-toner,Hydrating Milk Toner,Title,Default Title,,,,,DW-MILK-TONER,,,Shop location,,0,0,0,0,0,36
+barrier-repair-serum,Barrier Repair Serum,Size,30 ml,,,,,DW-BARRIER-REPAIR-SERUM-30-ML,,,Shop location,,0,0,0,0,0,64
+barrier-repair-serum,Barrier Repair Serum,Size,50 ml,,,,,DW-BARRIER-REPAIR-SERUM-50-ML,,,Shop location,,0,0,0,0,0,4
+vitamin-c-15-drops,Vitamin C 15% Drops,Title,Default Title,,,,,DW-VITAMIN-C-15-DROPS,,,Shop location,,0,0,0,0,0,36
+hyaluronic-dew-serum,Hyaluronic Dew Serum,Title,Default Title,,,,,DW-HYALURONIC-DEW-SERUM,,,Shop location,,0,0,0,0,0,36
+squalane-facial-oil,Squalane Facial Oil,Title,Default Title,,,,,DW-SQUALANE-FACIAL-OIL,,,Shop location,,0,0,0,0,0,36
+bakuchiol-night-oil,Bakuchiol Night Oil,Title,Default Title,,,,,DW-BAKUCHIOL-NIGHT-OIL,,,Shop location,,0,0,0,0,0,36
+retinal-night-cream,Retinal Night Cream,Title,Default Title,,,,,DW-RETINAL-NIGHT-CREAM,,,Shop location,,0,0,0,0,0,36
+ceramide-cloud-cream,Ceramide Cloud Cream,Format,50 ml jar,,,,,DW-CERAMIDE-CLOUD-CREAM-50-ML-JAR,,,Shop location,,0,0,0,0,0,36
+ceramide-cloud-cream,Ceramide Cloud Cream,Format,50 ml refill,,,,,DW-CERAMIDE-CLOUD-CREAM-50-ML-REFILL,,,Shop location,,0,0,0,0,0,36
+mineral-spf-40,Daily Mineral SPF 40,Title,Default Title,,,,,DW-MINERAL-SPF-40,,,Shop location,,0,0,0,0,0,36
+peptide-eye-cream,Peptide Eye Cream,Title,Default Title,,,,,DW-PEPTIDE-EYE-CREAM,,,Shop location,,0,0,0,0,0,36
+overnight-lip-mask,Overnight Lip Mask,Title,Default Title,,,,,DW-OVERNIGHT-LIP-MASK,,,Shop location,,0,0,0,0,0,36
+sugar-lip-scrub,Sugar Lip Scrub,Title,Default Title,,,,,DW-SUGAR-LIP-SCRUB,,,Shop location,,0,0,0,0,0,36
+calming-body-wash,Calming Body Wash,Title,Default Title,,,,,DW-CALMING-BODY-WASH,,,Shop location,,0,0,0,0,0,36
+hydrating-body-lotion,Hydrating Body Lotion,Title,Default Title,,,,,DW-HYDRATING-BODY-LOTION,,,Shop location,,0,0,0,0,0,36
+ceramide-hand-cream,Ceramide Hand Cream,Title,Default Title,,,,,DW-CERAMIDE-HAND-CREAM,,,Shop location,,0,0,0,0,0,36
+starter-routine,The Starter Routine,Title,Default Title,,,,,DW-STARTER-ROUTINE,,,Shop location,,0,0,0,0,0,36

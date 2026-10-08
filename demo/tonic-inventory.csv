@@ -1,0 +1,16 @@
+Handle,Title,Option1 Name,Option1 Value,Option2 Name,Option2 Value,Option3 Name,Option3 Value,SKU,HS Code,COO,Location,Bin name,Incoming (not editable),Unavailable (not editable),Committed (not editable),Available (not editable),On hand (current),On hand (new)
+daily-greens,Daily Greens,Flavor,Mint lime,,,,,TN-DAILY-GREENS-MINT-LIME,,,Shop location,,0,0,0,0,0,36
+daily-greens,Daily Greens,Flavor,Unflavored,,,,,TN-DAILY-GREENS-UNFLAVORED,,,Shop location,,0,0,0,0,0,5
+magnesium-glycinate,Magnesium Glycinate,Count,60 capsules,,,,,TN-MAGNESIUM-GLYCINATE-60-CAPSULES,,,Shop location,,0,0,0,0,0,36
+magnesium-glycinate,Magnesium Glycinate,Count,120 capsules,,,,,TN-MAGNESIUM-GLYCINATE-120-CAPSULES,,,Shop location,,0,0,0,0,0,36
+sleep-gummies,Deep Sleep Gummies,Title,Default Title,,,,,TN-SLEEP-GUMMIES,,,Shop location,,0,0,0,0,0,36
+omega-3-softgels,Omega-3 Softgels,Title,Default Title,,,,,TN-OMEGA-3-SOFTGELS,,,Shop location,,0,0,0,0,0,36
+ashwagandha-calm,Ashwagandha Calm,Title,Default Title,,,,,TN-ASHWAGANDHA-CALM,,,Shop location,,0,0,0,0,0,36
+beauty-gummies,"Hair, Skin and Nails Gummies",Title,Default Title,,,,,TN-BEAUTY-GUMMIES,,,Shop location,,0,0,0,0,0,36
+turmeric-complex,Turmeric Complex,Title,Default Title,,,,,TN-TURMERIC-COMPLEX,,,Shop location,,0,0,0,0,0,36
+ceremonial-matcha,Ceremonial Matcha,Title,Default Title,,,,,TN-CEREMONIAL-MATCHA,,,Shop location,,0,0,0,0,0,36
+marine-collagen,Marine Collagen Peptides,Title,Default Title,,,,,TN-MARINE-COLLAGEN,,,Shop location,,0,0,0,0,0,0
+vitamin-d3-k2,Vitamin D3 + K2,Title,Default Title,,,,,TN-VITAMIN-D3-K2,,,Shop location,,0,0,0,0,0,36
+electrolyte-sticks,Electrolyte Sticks,Flavor,Citrus,,,,,TN-ELECTROLYTE-STICKS-CITRUS,,,Shop location,,0,0,0,0,0,36
+electrolyte-sticks,Electrolyte Sticks,Flavor,Watermelon,,,,,TN-ELECTROLYTE-STICKS-WATERMELON,,,Shop location,,0,0,0,0,0,0
+golden-milk-blend,Golden Milk Blend,Title,Default Title,,,,,TN-GOLDEN-MILK-BLEND,,,Shop location,,0,0,0,0,0,36
